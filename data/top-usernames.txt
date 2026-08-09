@@ -1,4 +1,4 @@
-# Top usernames probed on LureScope sensors — all time (2026-07-28 → 2026-08-09)
+# Top usernames probed on LureScope sensors — all time (2026-07-28 → 2026-08-10)
 # Format: <username>TAB<attempt count>
 
 root	8497
@@ -21,12 +21,12 @@ binance	116
 blockchain	105
 centos	104
 hadoop	103
-testuser	102
 jenkins	102
-tomcat	99
+testuser	102
 mysql	99
-nagios	98
+tomcat	99
 git	98
+nagios	98
 server	96
 apache	95
 dev	95
@@ -37,14 +37,14 @@ es	89
 crypto	88
 db2inst1	87
 temp	87
-www	86
-sa	86
 ansible	86
+sa	86
 sysadmin	86
+www	86
 bitcoin	84
 db2fenc1	84
 odoo	84
-zabbix	83
 deployer	83
+zabbix	83
 devuser	82
 weblogic	82
