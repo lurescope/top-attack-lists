@@ -2,9 +2,9 @@
 
 **What attackers actually type when they knock on your door.** These lists are generated from [LureScope](https://lurescope.com)'s own passive sensor network — real brute-force telemetry, not recycled wordlists, not crowdsourced reports.
 
-&lt;!--STATS:BEGIN--&gt;
-&gt; **101,941 attack events · 3,853 unique IPs · 115+ countries** — and counting. Observation window opened 2026-07-28.
-&lt;!--STATS:END--&gt;
+<!--STATS:BEGIN-->
+> **102,555 attack events Â· 3,890 unique IPs Â· 125 countries** â and counting. Observation window opened 2026-07-28.
+<!--STATS:END-->
 &gt; **Live free tools:** [Have attackers tried it?](https://lurescope.com/wordcheck) · [Daily blocklist](https://lurescope.com/blocklist) · [Network stats](https://lurescope.com/stats) · [Threat reports](https://lurescope.com/reports)
 
 ## What's here
