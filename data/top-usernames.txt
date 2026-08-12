@@ -1,9 +1,9 @@
 # Top usernames probed on LureScope sensors — all time (2026-07-28 → 2026-08-12)
 # Format: <username>TAB<attempt count>
 
-root	16447
+root	16449
 wallet	3258
-admin	2055
+admin	2056
 ubuntu	1558
 user	934
 test	787
@@ -19,8 +19,8 @@ guest	193
 debian	182
 git	153
 centos	148
+developer	141
 mysql	141
-developer	139
 testuser	131
 nagios	128
 binance	126
