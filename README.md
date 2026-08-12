@@ -1,9 +1,11 @@
 # Top Attack Lists — Live Data From Our Own Honeypots
 
-**What attackers actually type when they knock on your door.** These lists are generated from [LureScope](https://lurescope.com)'s own passive honeypot sensor network — real brute-force telemetry, not recycled wordlists, not crowdsourced reports.
+**What attackers actually type when they knock on your door.** These lists are generated from [LureScope](https://lurescope.com)'s own passive sensor network — real brute-force telemetry, not recycled wordlists, not crowdsourced reports.
 
-> **84,365 attack events · 3,054 unique IPs · 115 countries** — and counting. Observation window opened 2026-07-28.
-> **Live free tools:** [Have attackers tried it?](https://lurescope.com/wordcheck) · [Daily blocklist](https://lurescope.com/blocklist) · [Network stats](https://lurescope.com/stats) · [Threat reports](https://lurescope.com/reports)
+&lt;!--STATS:BEGIN--&gt;
+&gt; **101,941 attack events · 3,853 unique IPs · 115+ countries** — and counting. Observation window opened 2026-07-28.
+&lt;!--STATS:END--&gt;
+&gt; **Live free tools:** [Have attackers tried it?](https://lurescope.com/wordcheck) · [Daily blocklist](https://lurescope.com/blocklist) · [Network stats](https://lurescope.com/stats) · [Threat reports](https://lurescope.com/reports)
 
 ## What's here
 
@@ -18,6 +20,7 @@
 - **First-party data.** Every line comes from unsolicited inbound connections to our own sensors. We never scan anyone, and we don't resell third-party feeds.
 - **Counts included.** Most public wordlists are unranked. These carry real attempt volumes, so you can weight your detections.
 - **It moves.** `wallet` was nowhere in our top 10 on August 5. By August 8 it was #2 overall — 3,253 attempts, **every single one with an empty password**. Crypto-themed usernames (`wallet`, `binance`, `blockchain`, `crypto`, `bitcoin`) now account for 3,646 attempts and form the clearest targeting wave we've observed. See [Report #3](https://lurescope.com/reports/after-the-tsunami).
+- **Beyond SSH.** In August 2026 we added industrial protocol decoys to the network. First ~60 hours: 172 probes from 151 IPs across 7 ICS protocols — FTP leading at 38%, 88% one-shot visitors, nearly all from rented cloud infrastructure. See [Report #5 — Who's Scanning the Industrial Internet?](https://lurescope.com/reports/ics-first-72-hours).
 
 ## How to use
 
@@ -27,7 +30,7 @@
 
 ## Methodology & ethics
 
-- Passive honeypot sensors only (SSH + Windows-service emulation). We never initiate connections or interact with attacking systems.
+- Passive decoy sensors only (SSH, Windows-service, and industrial protocol emulation). We never initiate connections or interact with attacking systems.
 - Attacker IPs are **never** published here. These files contain only attempted credentials — which attackers already know, since they supplied them.
 - Hex-encoded artifacts (e.g. `\x726f6f74` = `root` from MSSQL-layer probes) are filtered out of the lists.
 - Geolocation of sources reflects hosting infrastructure, not attacker nationality.
